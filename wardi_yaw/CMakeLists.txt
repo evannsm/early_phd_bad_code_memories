@@ -63,6 +63,11 @@ install(PROGRAMS
   scripts/rosbagreader.py
   scripts/finnal_with_data.py
   scripts/implement_CBF.py
+  scripts/CBF_log_all.py
+  scripts/CBF_log_all_fix_vert.py
+  scripts/CBF_on_everything.py
+  scripts/CBF_done_fix_vert.py
+  scripts/FINAL_COMPLETE_WORK.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
