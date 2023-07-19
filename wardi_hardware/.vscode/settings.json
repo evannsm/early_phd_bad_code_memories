@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/factslabegmc/px4_research/install/wardi_yaw/lib/python3.8/site-packages",
+        "/home/factslabegmc/px4_research/install/pid2/lib/python3.8/site-packages",
+        "/home/factslabegmc/px4_research/install/NR_Wardi_Tracker_Stack/lib/python3.8/site-packages",
+        "/home/factslabegmc/px4_research/install/Final_NR_Wardi_Tracker_Stack/lib/python3.8/site-packages",
+        "/home/factslabegmc/px4_research/install/px4_msgs/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/factslabegmc/px4_research/install/wardi_yaw/lib/python3.8/site-packages",
+        "/home/factslabegmc/px4_research/install/pid2/lib/python3.8/site-packages",
+        "/home/factslabegmc/px4_research/install/NR_Wardi_Tracker_Stack/lib/python3.8/site-packages",
+        "/home/factslabegmc/px4_research/install/Final_NR_Wardi_Tracker_Stack/lib/python3.8/site-packages",
+        "/home/factslabegmc/px4_research/install/px4_msgs/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
+}
