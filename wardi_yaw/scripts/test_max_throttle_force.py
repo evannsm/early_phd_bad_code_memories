@@ -20,5 +20,5 @@ def get_force_from_throttle_command(thrust_command):
 x = get_force_from_throttle_command(1)
 print(x)
 
-y = get_throttle_command_from_force(28.0)
+y = get_throttle_command_from_force(9.806 * 1.35)
 print(y)
