@@ -29,12 +29,19 @@ add_executable(hardware_offboard_pub src/hardware_offboard_pub.cpp)
 ament_target_dependencies(hardware_offboard_pub rclcpp std_msgs px4_msgs)
 add_executable(sim_pid_pub src/sim_pid_pub.cpp)
 ament_target_dependencies(sim_pid_pub rclcpp std_msgs px4_msgs)
+add_executable(sim_fix_rollpitch_pub src/sim_fix_rollpitch_pub.cpp)
+ament_target_dependencies(sim_fix_rollpitch_pub rclcpp std_msgs px4_msgs)
+add_executable(sim_vanilla_pub src/sim_vanilla_pub.cpp)
+ament_target_dependencies(sim_vanilla_pub rclcpp std_msgs px4_msgs)
 
 # Install Cpp Executables
 install(TARGETS
-sim_offboard_pub
 hardware_offboard_pub
+
+sim_offboard_pub
 sim_pid_pub
+sim_fix_rollpitch_pub
+sim_vanilla_pub
 DESTINATION lib/${PROJECT_NAME})
 
 # Install Python Modules
@@ -45,6 +52,11 @@ install(PROGRAMS
 
   python_scripts/hard_pid.py
   python_scripts/sim_pid.py
+
+  python_scripts/sim_fix_rollpitch_maybe.py
+  python_scripts/sim_vanilla_trajectories.py
+
+  python_scripts/sim_nr_with_reflog.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
